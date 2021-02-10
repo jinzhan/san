@@ -66,23 +66,23 @@ var _hmt = _hmt || [];
     <!-- NavBar-->
     <nav class="navbar-default" role="navigation">
         <div class="navbar-container">
-
             <a href="#home" class="nav-logo"><img src="../../img/logo2.png"></a>
-
-
             <a class="nav-a1" href="#Features">特性</a>
             <a class="nav-a2" href="#Resources">资料</a>
             <a class="nav-a3" href="#Facilities">周边</a>
-
             <a class="nav-lang" href="../../en/archives/2019/index.html">EN</a>
-
         </div>
     </nav>
 
+    <!-- 公众号文章 -->
+    <div class="article-container" data-src="../../data/article.json">
+        <a class="article-text-wrapper">
+            <span class="article-text"></span>
+        </a>
+    </div>
+
     <!-- feature-->
-
     <div class="feature-container" id="Features">
-
         <section class="feature feature-en">
 
         <div class="feature-row">
@@ -308,6 +308,7 @@ var _hmt = _hmt || [];
     <script src="../../js/jquery-1.10.2.js"></script>
     <script src="../../js/script.js"></script>
     <script src="../../js/bodymovin.min.js"></script>
+    <script src="../../js/anime.js"></script>
     <!-- StikyMenu -->
     <script src="../../js/stickUp.min.js"></script>
 
@@ -317,7 +318,6 @@ var _hmt = _hmt || [];
                 $('.navbar-default').stickUp();
             });
         });
-
     </script>
 </body>
 </html>
